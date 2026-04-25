@@ -4,7 +4,7 @@ SMA250-Monitor für MSCI World ETF (GB00BJDQQQ59 / iShares Core MSCI World UCITS
 Prüft den aktuellen Kurs gegen die 250-Tage-Linie und sendet bei Statuswechsel
 eine Benachrichtigung über ntfy.
 
-Author: Dominik
+Author: Kpzdme
 """
 
 import base64
