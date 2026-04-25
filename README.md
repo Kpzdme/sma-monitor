@@ -137,7 +137,7 @@ Gängige Werte:
 | 100 | Mittelfristiger Trend |
 | 150 | Quartalstrend |
 | **250** | **Langfristiger Trend (Standard)** – etabliertes Marktbreite-Signal |
-| 250 | Jahres-SMA |
+
 
 ### Zeitraum für den Datenabruf
 
