@@ -1,0 +1,19 @@
+[Unit]
+Description=SMA250 Monitor Timer (09:00 & 17:00 daily)
+Requires=sma250-monitor.service
+
+[Timer]
+# Zweimal täglich: 09:00 und 17:00 Uhr lokale Zeit
+OnCalendar=Mon..Fri 09:00
+OnCalendar=Mon..Fri 17:00
+
+# Falls der Rechner zur geplanten Zeit aus war: Ausführung beim nächsten Start nachholen
+Persistent=true
+
+# Zufällige Verzögerung von bis zu 2 Minuten (entlastet Yahoo bei vielen Nutzern)
+RandomizedDelaySec=120
+
+Unit=sma250-monitor.service
+
+[Install]
+WantedBy=timers.target
