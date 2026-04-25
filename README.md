@@ -4,6 +4,8 @@ Ein leichtgewichtiger Python-Monitor, der den Schlusskurs eines Index oder ETFs 
 
 Entwickelt für SMA250-basierte Anlagestrategien (z.B. in Kombination mit Leverage-ETFs), bei denen ein systematisches Signal beim Über- bzw. Unterschreiten der 250-Tage-Linie als Ein- bzw. Ausstiegsindikator dient.
 
+Hinweis vorab: Claude hat bei diesem Projekt stark mitgeholfen (AI was used to create this tool).
+
 ## Features
 
 - **Kostenlose Datenquelle:** Yahoo Finance via [`yfinance`](https://github.com/ranaroussi/yfinance), kein API-Key erforderlich
